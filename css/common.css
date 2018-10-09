@@ -1,0 +1,25 @@
+@charset "UTF-8";
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+	margin:0;
+	padding:0;
+}
+body{
+	position:relative;
+	margin:0;
+	min-width:1200px;
+	font-style:"微软雅黑";
+	background-color: #F6F5F4;
+}
+a{text-decoration:none;}
+li{list-style:none;}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
